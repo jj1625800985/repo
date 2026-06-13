@@ -89,17 +89,17 @@ Maintainer: Axs
 Installed-Size: 2700
 Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
 Filename: debs/com.Axs.floating-view_1.6.0-6_iphoneos-arm64e.deb
-Size: 652976
-MD5sum: cb59d81a028fdbe49b33144f11085540
-SHA1: ee230e4cc154116531a3fe2c14ccb0a0c877ae07
-SHA256: 1bcb96f46228eb082ffc2715721a30b2cbe16fb2942c9ef5e2c63d36fc58a505
-Section: 分屏插件
+Size: 652292
+MD5sum: 9e18c52118566e1783a6f35cd2401a80
+SHA1: 1a5a22eb65e3520ef72375b8d896f74822f394df
+SHA256: f1a0cc5e7b6d82d1450bcf540954a77ee5204ecad66e5b1b5585d6aa1559144e
+Section: 破解插件
 Description: 温馨提示:
-  * 1、仅供个人备份与学习研究使用。
-  * 2、本插件未经过大量设备测试，仅在 iPhone 14 Pro iOS 16.2、iPhone 14 Pro Max iOS 16.5 无根越狱环境下测试正常可用。
-  * 3、本版本仅处理授权验证逻辑，插件其他原有逻辑未作修改。若安装后无效、冲突或导致设备/应用异常，请自行卸载。
-  * 4、免责声明：安装和使用本插件所产生的一切风险由使用者自行承担。如因插件本身兼容性、原始代码逻辑或其他未知问题导致设备、系统、应用出现异常，请联系原插件作者处理。本人不承担因此产生的任何责任。
-  * 5、安全预警：鉴于越狱圈内部分特定人员（如Fv作者、苏苏、Wkk等）存在发布恶意格机代码、恶意抹黑及录制栽赃嫁祸视频的前科，需要用户自行甄别，从正确渠道下载插件。
+ * 1、仅供个人备份与学习研究使用。
+ * 2、本插件未经过大量设备测试，仅在 iPhone 14 Pro iOS 16.2、iPhone 14 Pro Max iOS 16.5 无根越狱环境下测试正常可用。
+ * 3、本版本仅处理授权验证逻辑，插件其他原有逻辑未作修改。若安装后无效、冲突或导致设备/应用异常，请自行卸载。
+ * 4、免责声明：安装和使用本插件所产生的一切风险由使用者自行承担。如因插件本身兼容性、原始代码逻辑或其他未知问题导致设备、系统、应用出现异常，请联系原插件作者处理。本人不承担因此产生的任何责任。
+ * 5、安全预警：鉴于越狱圈内部分特定人员（如Fv作者、苏苏、Wkk等）存在发布恶意格机代码、恶意抹黑及录制栽赃嫁祸视频的前科，需要用户自行甄别，从正确渠道下载插件。
 Author: be-huge
 Icon: https://axs66.github.io/pro/icon/svp.png
 Name: Fv分屏破解版
@@ -165,11 +165,11 @@ Maintainer: Axs
 Installed-Size: 508
 Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
 Filename: debs/com.axs.screenrecording_5.2.0-35_iphoneos-arm64e.deb
-Size: 46588
-MD5sum: 4f8a2ca3637a9a06d7cadb96ff21c98c
-SHA1: 496a1b404e55e7e405f719835d0bc4b37c790300
-SHA256: 0fb52acedbc852a5e0dd211ad993121343a0325a1a7da1a8c7e7e4219c2363b3
-Section: Tweaks
+Size: 46616
+MD5sum: 07b1ed55c7538293c51417d8771e1324
+SHA1: e5c6270728ee2edbcef28f8ad373b78d58aca4c0
+SHA256: 4bf6941e83ccb650f614df65f7904bd9d5e8f5c60264668b2da26d8112803ae8
+Section: 破解插件
 Description: 全局录屏自动添加你预先放好的水印和套壳素材，让你的分享更加专业。
 Author: Axs
 Icon: https://axs66.github.io/pro/icon/screenrecording.png
@@ -183,11 +183,11 @@ Maintainer: Axs
 Installed-Size: 836
 Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
 Filename: debs/com.axs.switchicon_5.2.0-131_iphoneos-arm64e.deb
-Size: 122624
-MD5sum: a545fca9a61b340a008f70905ce9371c
-SHA1: 30210e376ab6e0baa60d81f53b264c89f051fd6f
-SHA256: 8c41a7de3c96a0fc2bfedcfabac6f1ed278d34d0e6a433cf97d92767bbe0ebc0
-Section: Tweaks
+Size: 123192
+MD5sum: e8de4e0d1040bdf60d800ca7dd2ad9f8
+SHA1: dbc4006ef260e395b4979a0fa153069f3afc6574
+SHA256: 0fff355e428feb66ae2ad3994e2167dec430782486da7f3f50b9d2901fe0d82d
+Section: 破解插件
 Description: 一个强大的全局 UISwitch 开关控件，让原生开关显示更有个性；付费插件，需要请联系微信：VCR66T
  * 一、纯代码开关组
  * 1. 动态组：昼夜开关、血瞳开关、液态开关，支持流畅的过渡动画与动态视觉效果；
@@ -339,11 +339,11 @@ Maintainer: Crassna
 Installed-Size: 204
 Depends: firmware (>= 16.1) | org.swift.libswift (>= 5.0)
 Filename: debs/com.nx.accode_1.0_iphoneos-arm64e.deb
-Size: 19416
-MD5sum: b10c9110d47e4934a8dd368bd8485868
-SHA1: 0af7f8fe28b8263fe5641a59493eba69278f4cd9
-SHA256: 4d588a748b1f9dbf4c060744165c4a1fd1afde990c240520c681e38c5f0687f5
-Section: System
+Size: 19608
+MD5sum: d7e4a3b36ed81b4655e59feff502ab6f
+SHA1: 6227a2ca1be4361667620bd402beb62cb1b0f505
+SHA256: 3a4f7dc80d7efde30e0abd305912a345af2d9e45289eef3faf572a204942bdd9
+Section: 插件配置
 Description: 使用方法：用终端输入stheno+空格+udid，获取激活码。再下载旧版stheno激活，激活成功 卸载旧版，注销后再下载新版即可。
 Tag: role::hacker
 Author: Crassna
