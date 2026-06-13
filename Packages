@@ -84,15 +84,15 @@ Description: OpenAI Codex CLI for iOS arm64 - AI coding agent in your terminal
 
 Package: com.Axs.floating-view
 Version: 1.6.0-6
-Architecture: iphoneos-arm64
+Architecture: iphoneos-arm64e
 Maintainer: Axs
 Installed-Size: 2700
 Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
-Filename: debs/com.Axs.floating-view_1.6.0-6_iphoneos-arm64.deb
-Size: 652884
-MD5sum: 8b189bdfd446b1daf9e1faeaa2c9973b
-SHA1: 3f6981bfb23facfabba513b1d913dfb85a2a825c
-SHA256: f5b61f406f02a3769a8d25ce500ebccc9408a7730979047b17c6a711b2ceed4c
+Filename: debs/com.Axs.floating-view_1.6.0-6_iphoneos-arm64e.deb
+Size: 652976
+MD5sum: cb59d81a028fdbe49b33144f11085540
+SHA1: ee230e4cc154116531a3fe2c14ccb0a0c877ae07
+SHA256: 1bcb96f46228eb082ffc2715721a30b2cbe16fb2942c9ef5e2c63d36fc58a505
 Section: 分屏插件
 Description: 温馨提示:
   * 1、仅供个人备份与学习研究使用。
@@ -107,13 +107,13 @@ Sileodepiction: https://axs66.github.io/pro/sileodepiction/floating-view/js.json
 
 Package: com.Axs.ibisPaintX
 Version: 0.1-1
-Architecture: iphoneos-arm64
+Architecture: iphoneos-arm64e
 Depends: firmware (>= 5.0), mobilesubstrate
-Filename: debs/com.Axs.ibisPaintX_0.1-1_iphoneos-arm64.deb
-Size: 192152
-MD5sum: 7160ac9118002fafa691f9195f4a0e96
-SHA1: 9999aa876a31b7acee9d43f155758241977ed3fa
-SHA256: 4c65f3f838996a97e0910188cf19a958c64bfab3ba8100ad2e56f8dd17155c38
+Filename: debs/com.Axs.ibisPaintX_0.1-1_iphoneos-arm64e.deb
+Size: 192460
+MD5sum: 8ca21730b3afba493caa123ad12c8ccc
+SHA1: 707cbc9a5eae5d903c170c6e0ca1c4ef4cbe5a49
+SHA256: 83bc1bd3928ab5cbcf8b8b29ec79168650795c29ab2b0b6523509b8f0cabc6b6
 Section: 破解插件
 Description: 爱笔思画解锁会员
 Author: iosrxwy
@@ -142,15 +142,15 @@ Sileodepiction: https://axs66.github.io/pro/sileodepiction/stheno/js.json
 
 Package: com.axs.ios16dao
 Version: 5.2.0-205
-Architecture: iphoneos-arm64
+Architecture: iphoneos-arm64e
 Maintainer: Axs
 Installed-Size: 664
 Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.altlist
-Filename: debs/A狗动态岛破解版205.deb
-Size: 78328
-MD5sum: d6c8ab29cf4b566451c5deb4f1982523
-SHA1: 4671249bd0defcc1d7cd0d69233ab327c60adfa9
-SHA256: 6d560bb58d1657780214dea49cabdeeeb7a9016b404eaa2526a28205ce900b9b
+Filename: debs/com.axs.ios16dao_5.2.0-205_iphoneos-arm64e.deb
+Size: 78340
+MD5sum: d83fbbb4cea2d24642fadd1583ba2211
+SHA1: 2c3e379269cd618147ac39883d7bc860dc00b69b
+SHA256: c1566bf5347c125d45c9f9392aaf6ade111c4dcd7c75952fc99472046bd6dd83
 Section: 灵动岛
 Description: 灵动岛媒体美化增强，支持 PNG/JPG/GIF/MP4,录屏隐藏原生岛与阴影兼容控制。集成授权校验联系:VCR66T
 Author: Axs
@@ -160,34 +160,34 @@ Sileodepiction: https://axs66.github.io/pro/sileodepiction/ios16dao/js.json
 
 Package: com.axs.screenrecording
 Version: 5.2.0-35
-Architecture: iphoneos-arm64
+Architecture: iphoneos-arm64e
 Maintainer: Axs
 Installed-Size: 508
 Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
-Filename: debs/A狗视频套壳_破解版.deb
-Size: 46640
-MD5sum: 866936e24f741e475ad52323e93e99a4
-SHA1: 4aad0ccb888874fcede1ed30dc652332ddc3e3b5
-SHA256: e6fb99cdf99ef2a841fe5123a34c3055c0f2be6f93f3c7433b2cace6a1b04338
-Section: 破解插件
+Filename: debs/com.axs.screenrecording_5.2.0-35_iphoneos-arm64e.deb
+Size: 46588
+MD5sum: 4f8a2ca3637a9a06d7cadb96ff21c98c
+SHA1: 496a1b404e55e7e405f719835d0bc4b37c790300
+SHA256: 0fb52acedbc852a5e0dd211ad993121343a0325a1a7da1a8c7e7e4219c2363b3
+Section: Tweaks
 Description: 全局录屏自动添加你预先放好的水印和套壳素材，让你的分享更加专业。
 Author: Axs
 Icon: https://axs66.github.io/pro/icon/screenrecording.png
-Name: 全局水印&套壳『截屏.录屏』-开心版
+Name: 全局水印&套壳『截屏.录屏』
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/screenrecording/js.json
 
 Package: com.axs.switchicon
 Version: 5.2.0-131
-Architecture: iphoneos-arm64
+Architecture: iphoneos-arm64e
 Maintainer: Axs
 Installed-Size: 836
 Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
-Filename: debs/A狗液态开关破解版.deb
-Size: 123196
-MD5sum: 56d60a9965e6ddd8883b902e27acedcc
-SHA1: 01cbe3a2ae736e43c2d12741fc7a71cb3099ba9b
-SHA256: 1bc2eeb30e8b6ce08a6fbe22b1bb968a193edf77867bcbe700ca7c00b87b9615
-Section: 破解插件
+Filename: debs/com.axs.switchicon_5.2.0-131_iphoneos-arm64e.deb
+Size: 122624
+MD5sum: a545fca9a61b340a008f70905ce9371c
+SHA1: 30210e376ab6e0baa60d81f53b264c89f051fd6f
+SHA256: 8c41a7de3c96a0fc2bfedcfabac6f1ed278d34d0e6a433cf97d92767bbe0ebc0
+Section: Tweaks
 Description: 一个强大的全局 UISwitch 开关控件，让原生开关显示更有个性；付费插件，需要请联系微信：VCR66T
  * 一、纯代码开关组
  * 1. 动态组：昼夜开关、血瞳开关、液态开关，支持流畅的过渡动画与动态视觉效果；
@@ -202,7 +202,7 @@ Description: 一个强大的全局 UISwitch 开关控件，让原生开关显示
  * 2. 后续增加新样式，新用户可能面临涨价。
 Author: Axs
 Icon: https://axs66.github.io/pro/icon/switchicon.png
-Name: Switch Icon -开心版
+Name: Switch Icon
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/switchicon/js.json
 
 Package: com.be-huge.floating-view
@@ -334,16 +334,16 @@ Name: debd（自用）
 
 Package: com.nx.accode
 Version: 1.0
-Architecture: iphoneos-arm64
+Architecture: iphoneos-arm64e
 Maintainer: Crassna
 Installed-Size: 204
 Depends: firmware (>= 16.1) | org.swift.libswift (>= 5.0)
-Filename: debs/com.nx.accode_1.0_iphoneos-arm64.deb
-Size: 19584
-MD5sum: 7fdb6101e4c3bf7d0c15cb761da478f9
-SHA1: 16b4c71c570e95adb49771548f0d75c216d27c35
-SHA256: 73bb4597d0c7d053a965b3d688e4acbdcb1ed983aebadb6280d1582431a28439
-Section: 插件配置
+Filename: debs/com.nx.accode_1.0_iphoneos-arm64e.deb
+Size: 19416
+MD5sum: b10c9110d47e4934a8dd368bd8485868
+SHA1: 0af7f8fe28b8263fe5641a59493eba69278f4cd9
+SHA256: 4d588a748b1f9dbf4c060744165c4a1fd1afde990c240520c681e38c5f0687f5
+Section: System
 Description: 使用方法：用终端输入stheno+空格+udid，获取激活码。再下载旧版stheno激活，激活成功 卸载旧版，注销后再下载新版即可。
 Tag: role::hacker
 Author: Crassna
