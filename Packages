@@ -1,19 +1,19 @@
 Package: ai-config-gui
-Version: 3.3.1
+Version: 3.4.0-1+debug
 Architecture: iphoneos-arm64e
 Maintainer: DaFei
-Installed-Size: 680
+Installed-Size: 1000
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: firmware (>= 14.0), libvterm0,libvterm-bin
-Filename: debs/ai-config-gui_3.3.1_iphoneos-arm64e.deb
-Size: 186802
-MD5sum: 645a947e21705ee15ed298a034ba58b4
-SHA1: bbc07c647b31af41f8eaaf42e7eff1c4e7e5385f
-SHA256: 1ccdc3b97db4f4feb6c1db656c72c6bde28b4308127cf3982fe1f8eceaddbb0a
-Section: Utilities
-Description: Claude Code / Codex API 配置管理工具 内置ai终端，双指缩放页面，需要先安装大飞源里面的ai，claude和codex然后执行一次“claude”和“codex”命令初始化文件，修复roothide闪退问题.
+Filename: debs/ai-config-gui_3.4.0-1+debug_iphoneos-arm64e.deb
+Size: 287572
+MD5sum: c09d7b25e2052cfbd429a4eb560a4d4c
+SHA1: a464ca73ee47a5a7f33e426ccc1f65d51ed746c0
+SHA256: 5cdbef8272ff151cf463c8400aaef78e9ebf030c3387d898cf470c69bf869234
+Section: Ai工具
+Description: Claude Code / Codex API 配置管理工具 内置ai终端，双指缩放页面，需要先安装大飞源里面的ai，claude和codex然后执行一次“claude”和“codex”命令初始化文件，更新面板显示🤔
 Author: DaFei
-Icon: file:///Applications/ClaudeAuth.app/AppIcon60x60@2x.png
+Icon: https://langshiyunyi.github.io/my-repo/icons/ai-config-gui.png
 Name: AI-Config-GUI
 
 Package: claude-code-roothide
@@ -165,15 +165,15 @@ Maintainer: Axs
 Installed-Size: 508
 Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
 Filename: debs/A狗视频套壳_破解版.deb
-Size: 46396
-MD5sum: 8db00ea2cae55545d67cc9a45e255050
-SHA1: eb13ae79fba1203ee86bdc0ca10d2cf3c3e02192
-SHA256: 0e648846b7e8f40413637027daa5d9f1f0e5e627cd3e7711d909c0ef9a33796b
+Size: 46620
+MD5sum: db4cbfaf562a6a59fa0e5d3b70107aae
+SHA1: d9effe3b3d5267b343ccfdeff0b2088d976e1e85
+SHA256: 83d0331a240e3b5999fdbb267ee2c982e2789722004ad5692235c37003ea7c3b
 Section: Tweaks
 Description: 全局录屏自动添加你预先放好的水印和套壳素材，让你的分享更加专业。
 Author: Axs
 Icon: https://axs66.github.io/pro/icon/screenrecording.png
-Name: 全局水印&套壳『截屏.录屏』
+Name: 全局水印&套壳『截屏.录屏』-开心版
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/screenrecording/js.json
 
 Package: com.axs.switchicon
@@ -183,10 +183,10 @@ Maintainer: Axs
 Installed-Size: 836
 Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
 Filename: debs/A狗液态开关破解版.deb
-Size: 122528
-MD5sum: ab68e821f2630db3ae297f49732e978a
-SHA1: 54b7b2d01ec634d93b465c5f5b565030f11b8f76
-SHA256: 35de138df50dae2c4c160bfbd63bd0189d31d2cda2ca8f14836cca8962f53dc4
+Size: 123316
+MD5sum: 252be5d4292b9a082236926262bbcc31
+SHA1: f254b39e8f7496bc3f8e00e1dc5c9eefc4ee7caa
+SHA256: 46eccded872ab88187552b6feb9b3b7126a8c16a2c3fd0f3bd781b29834a5719
 Section: Tweaks
 Description: 一个强大的全局 UISwitch 开关控件，让原生开关显示更有个性；付费插件，需要请联系微信：VCR66T
  * 一、纯代码开关组
@@ -202,7 +202,7 @@ Description: 一个强大的全局 UISwitch 开关控件，让原生开关显示
  * 2. 后续增加新样式，新用户可能面临涨价。
 Author: Axs
 Icon: https://axs66.github.io/pro/icon/switchicon.png
-Name: Switch Icon
+Name: Switch Icon -开心版
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/switchicon/js.json
 
 Package: com.be-huge.floating-view
@@ -225,22 +225,23 @@ Name: floatingView
 Sileodepiction: https://raw.githubusercontent.com/Wkkyy00/SileoDepiction/refs/heads/main/floatingView.json
 
 Package: com.dafei.terminal
-Version: 1.0.0-27+debug
+Version: 2.0.0
 Architecture: iphoneos-arm64e
 Maintainer: DaFei
-Installed-Size: 732
+Installed-Size: 596
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: firmware (>= 14.0), libvterm-bin (>= 0.1)
-Filename: debs/com.dafei.terminal_1.0.0-27+debug_iphoneos-arm64e.deb
-Size: 212730
-MD5sum: a4aec55c980d1b3fa1ca638e4dac17ab
-SHA1: 03b3e0dbe39979fdc70fa660bcfc74fde15a6162
-SHA256: 4e8383d3e514aa4311b6a612f286f854953eb98f399a1375635908b7d84cda66
+Filename: debs/com.dafei.terminal_2.0.0_iphoneos-arm64e.deb
+Size: 221108
+MD5sum: 2ebb6a4966aac6a2fd2cb0781e140fba
+SHA1: 2d328262bf4e5307cef369b1ab54a63918ce432c
+SHA256: aa9e9fd4de8d8b64db9029de43452b3a4c0918ad35b6ea36c0bf724f2f08fec1
 Section: Terminal Support
-Description: iOS终端模拟器，支持多标签、中文显示、硬件键盘、手势缩放字体、滚动回看历史。
- A full-featured terminal emulator for iOS with multi-tab, CJK support,
- hardware keyboard, pinch-to-zoom, and scrollback history.
+Description: 现代化 iOS 终端，支持多标签、主题、中文/emoji、复制粘贴、双指缩放和本地 AI 辅助。更新了一些功能
+ A modern iOS terminal emulator with tabs, themes, CJK/emoji rendering,
+ copy/paste, pinch-to-zoom, scrollback, and local AI context helpers.
 Author: DaFei
+Icon: https://langshiyunyi.github.io/my-repo/icons/dfterminal.png
 Name: DFTerminal
 
 Package: com.iosdump.shellx
