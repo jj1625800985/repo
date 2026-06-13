@@ -1,0 +1,113 @@
+Package: ai-config-gui
+Version: 3.3.1
+Architecture: iphoneos-arm64e
+Maintainer: DaFei
+Installed-Size: 680
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: firmware (>= 14.0), libvterm0, libvterm-bin
+Filename: debs/ai-config-gui_3.3.1_iphoneos-arm64e.deb
+Size: 1004
+MD5sum: 8fb937c0d4d1417ead63731402edfbb6
+SHA1: 67996d04383e4fc911ed7fb58a77a1de3b28fc98
+SHA256: 38b514ea0bdbea48c4b888c058006ba2ed637ad7788a07aa51f9ff64f5a18bdd
+Section: Utilities
+Description: Claude Code / Codex API 配置管理工具 内置ai终端，双指缩放页面，需要先安装大飞源里面的ai，claude和codex然后执行一次“claude”和“codex”命令初始化文件，修复roothide闪退问题.
+Author: DaFei
+Icon: file:///Applications/ClaudeAuth.app/AppIcon60x60@2x.png
+Name: AI-Config-GUI
+
+Package: claude-code-roothide
+Version: 2.1.19-1
+Architecture: iphoneos-arm64e
+Maintainer: Bryan
+Installed-Size: 142528
+Depends: firmware (>= 14.0), zsh, ldid
+Conflicts: com.anthropic.claude-code-beta
+Provides: claude-code
+Filename: debs/claude-code-roothide_2.1.19-1_iphoneos-arm64e.deb
+Size: 1976
+MD5sum: 5a4793b4fe02aadc02af577aa19088fd
+SHA1: 8fd30d0278109a0b327c4f63926de71b8bee822f
+SHA256: c2cf37bb9aee534e5fb099174d25655a3a2616cfa02d672ae4977b6fb7ce5b62
+Section: Development
+Homepage: https://claude.ai
+Description: Claude Code CLI for iOS 人工智能 在越狱iPhone 上本 地运行Claude Code终端执行claude-auth以开始认证 配置 终端执行 claude以开始使用 可以配置 DeepSeek模型API和第三方模型API
+Tag: purpose::console, role::developer
+Author: Anthropic (iOS package by Bryan) DaFei(修改优化)
+Depiction: https://github.com/anthropics/claude-code
+Name: Claude Code Roothide
+Sileodepiction: https://github.com/anthropics/claude-code
+
+Package: com.be-huge.floating-view
+Version: 1.6.0-6
+Architecture: iphoneos-arm64e
+Maintainer: be-huge
+Installed-Size: 2692
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Filename: debs/com.be-huge.floating-view_1.6.0-6_iphoneos-arm64e.deb
+Size: 1264
+MD5sum: fd0c895e41286911227958f0b54cd5fa
+SHA1: 4abc9843d26d177004aa40eb68b063776a9a93a3
+SHA256: 94a1c443fc854ffa8a0e93b50eb5da448bf7d417d62c7207c7b1fdf0a5a7271e
+Section: Tweaks
+Description: 分屏，不必太复杂，一切从简即可。
+Author: be-huge
+Icon: https://s1.imagehub.cc/images/2025/01/11/a6ee9b7d3555d062c59b68c2c71c7406.png
+Name: floatingView
+Sileodepiction: https://raw.githubusercontent.com/Wkkyy00/SileoDepiction/refs/heads/main/floatingView.json
+
+Package: com.dafei.terminal
+Version: 1.0.0-27+debug
+Architecture: iphoneos-arm64e
+Maintainer: DaFei
+Installed-Size: 732
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: firmware (>= 14.0), libvterm-bin (>= 0.1)
+Filename: debs/com.dafei.terminal_1.0.0-27+debug_iphoneos-arm64e.deb
+Size: 972
+MD5sum: 1487163d1dc49dd955980073d2b7c37e
+SHA1: eda9b7887d579c608d2b89bf06721587f6e5f3cd
+SHA256: 755283c04b82f5a197b985e7d93227927b51c195a62952ebff7cf970c88c858d
+Section: Terminal Support
+Description: iOS终端模拟器，支持多标签、中文显示、硬件键盘、手势缩放字体、滚动回看历史。
+ A full-featured terminal emulator for iOS with multi-tab, CJK support,
+ hardware keyboard, pinch-to-zoom, and scrollback history.
+Author: DaFei
+Name: DFTerminal
+
+Package: com.nan.debd2
+Version: 0.1
+Architecture: iphoneos-arm64e
+Maintainer: zhaonan
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: coreutils, sed, gawk, curl, zstd, xz-utils, bzip2, gzip, text-cmds, ncurses-bin, file, jq
+Filename: debs/com.nan.debd2_0.1_iphoneos-arm64e.deb
+Size: 1108
+MD5sum: d0b6969e778ca84710da857ad8794cfc
+SHA1: 174ca2b3c7da9c576f4573b7a9b3a48ac2f9844d
+SHA256: 9d6f5516c4d4a3fb792be6da0c709f868bbb4c2e56999d29698b3defda26c80c
+Section: 插件配置
+Description: 轻量deb下载工具，不支持付费才能下的插件（此为备份且修改自用，默认下载目录改为var/mobile/Documents/搭配快捷指令下载deb插件快人一步！）
+Author: zhaonan <invalidunit@icloud.com>
+Icon: https://invalidunit.github.io/sileodepiction/Default/image_terminal.png
+Name: debd（自用）
+
+Package: com.wkk.nopreferencetips
+Version: 1.0.4
+Architecture: iphoneos-arm64e
+Maintainer: 苏苏
+Installed-Size: 168
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.5)
+Filename: debs/com.wkk.nopreferencetips_1.0.4_iphoneos-arm64e.deb
+Size: 1008
+MD5sum: ad24c1aaf71d33de128bde9089ad3d5f
+SHA1: 80fc24ee95eb189aaf9e7a73ce78b100dc864d48
+SHA256: 98e78f7fa3c3a8952232d9f694f7a4c0dba6ae101020a3c3bcfbdbe81a093d57
+Section: Tweaks
+Description: 移除“设置-电池-电池健康与充电”的提醒并显示健康值，移除桌面上的设置角标，移除“关于本机”页面中-部件和服务历史记录下的未知部件提醒（如：电池-未知部件）
+Author: 苏苏
+Icon: https://s1.imagehub.cc/images/2025/02/14/a2e56499e255b0a754bebf8803f037c8.png
+Name: NoPreferencesTips
+
