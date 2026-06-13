@@ -45,12 +45,12 @@ Maintainer: Lessica <82flex@gmail.com>
 Installed-Size: 1044
 Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.libsandy
 Filename: debs/codes.aurora.kayoko_3.3.6-6_iphoneos-arm64e.deb
-Size: 138740
-MD5sum: df6aeccb376d8e5ca368fa0b51dcf28e
-SHA1: f9bae12e6463dac7e1483fbd640dbe82b156a854
-SHA256: 2bdb37db93ad362acf1598f16292f4cfcb1fe7576a41df463de724e753022e3d
+Size: 139368
+MD5sum: 1e01669172863966d16b7a324f6e87f0
+SHA1: 801d138033e26bd19c4fce39e502bcc573de9c02
+SHA256: 7df8fe255a0e2493d608845a028f5d6005a10c81ba87594df30bb35aa6974c21
 Section: Tweaks
-Description: Clipboard manager for iOS.
+Description: Clipboard manager for iOS. 粘贴版
 Author: Alexandra Aurora Göttlicher
 Icon: https://apt.002599.xyz/web/icon/codes.aurora.kayoko.png
 Name: Hello Kayoko
@@ -165,11 +165,11 @@ Maintainer: Axs
 Installed-Size: 508
 Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
 Filename: debs/A狗视频套壳_破解版.deb
-Size: 46620
-MD5sum: db4cbfaf562a6a59fa0e5d3b70107aae
-SHA1: d9effe3b3d5267b343ccfdeff0b2088d976e1e85
-SHA256: 83d0331a240e3b5999fdbb267ee2c982e2789722004ad5692235c37003ea7c3b
-Section: Tweaks
+Size: 46640
+MD5sum: 866936e24f741e475ad52323e93e99a4
+SHA1: 4aad0ccb888874fcede1ed30dc652332ddc3e3b5
+SHA256: e6fb99cdf99ef2a841fe5123a34c3055c0f2be6f93f3c7433b2cace6a1b04338
+Section: 破解插件
 Description: 全局录屏自动添加你预先放好的水印和套壳素材，让你的分享更加专业。
 Author: Axs
 Icon: https://axs66.github.io/pro/icon/screenrecording.png
@@ -183,11 +183,11 @@ Maintainer: Axs
 Installed-Size: 836
 Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
 Filename: debs/A狗液态开关破解版.deb
-Size: 123316
-MD5sum: 252be5d4292b9a082236926262bbcc31
-SHA1: f254b39e8f7496bc3f8e00e1dc5c9eefc4ee7caa
-SHA256: 46eccded872ab88187552b6feb9b3b7126a8c16a2c3fd0f3bd781b29834a5719
-Section: Tweaks
+Size: 123196
+MD5sum: 56d60a9965e6ddd8883b902e27acedcc
+SHA1: 01cbe3a2ae736e43c2d12741fc7a71cb3099ba9b
+SHA256: 1bc2eeb30e8b6ce08a6fbe22b1bb968a193edf77867bcbe700ca7c00b87b9615
+Section: 破解插件
 Description: 一个强大的全局 UISwitch 开关控件，让原生开关显示更有个性；付费插件，需要请联系微信：VCR66T
  * 一、纯代码开关组
  * 1. 动态组：昼夜开关、血瞳开关、液态开关，支持流畅的过渡动画与动态视觉效果；
@@ -339,11 +339,11 @@ Maintainer: Crassna
 Installed-Size: 204
 Depends: firmware (>= 16.1) | org.swift.libswift (>= 5.0)
 Filename: debs/com.nx.accode_1.0_iphoneos-arm64.deb
-Size: 19444
-MD5sum: f52cafa3cd8779082a9c03ff08f59bf5
-SHA1: 2457c0ff1678660cea7e3f90ec167cc57480d074
-SHA256: 1176f4a975681615b08adb57084c30541e498754b856d78efb7a66e34ecdb575
-Section: System
+Size: 19584
+MD5sum: 7fdb6101e4c3bf7d0c15cb761da478f9
+SHA1: 16b4c71c570e95adb49771548f0d75c216d27c35
+SHA256: 73bb4597d0c7d053a965b3d688e4acbdcb1ed983aebadb6280d1582431a28439
+Section: 插件配置
 Description: 使用方法：用终端输入stheno+空格+udid，获取激活码。再下载旧版stheno激活，激活成功 卸载旧版，注销后再下载新版即可。
 Tag: role::hacker
 Author: Crassna
@@ -384,6 +384,26 @@ Description: 移除“设置-电池-电池健康与充电”的提醒并显示�
 Author: 苏苏
 Icon: https://s1.imagehub.cc/images/2025/02/14/a2e56499e255b0a754bebf8803f037c8.png
 Name: NoPreferencesTips
+
+Package: com.wkk.restorefont2
+Version: 1.0-1
+Architecture: iphoneos-arm64e
+Maintainer: 灰灰
+Depends: sudo, bash (>= 5.0.3-2), coreutils (>= 8.31-1), grep (>= 3.1-1), sed (>= 4.5-1), gawk (>= 4.2.1-1), tar (>= 1.33-1)
+Filename: debs/com.wkk.restorefont2_1.0-1_iphoneos-arm64e.deb
+Size: 992
+MD5sum: 50e98a29f59ee6f15bdded6d3ab7f85d
+SHA1: 215b83c345cf13ec047caf068e9d34903c7af061
+SHA256: 7d07a18da6c4631731adce7e733a63f75ffc531e0a6a977122fbc13bbca55ac5
+Section: 插件配置
+Description:
+ * 下载后脚本文件在/var/mobile/Documents
+ * 把脚本扔进你要替换的字体目录下
+ * 直接点运行会自动挂载以及替换
+ * 最后重启用户空间即可
+Author: 灰灰
+Icon: https://s1.imagehub.cc/images/2025/01/10/0458f7f83190b2b17070085595312c2b.jpeg
+Name: 字体一键替换2
 
 Package: com.wkk.zone
 Version: 0.0.9
