@@ -1,24 +1,24 @@
-Origin: sxllm repo
-Label: sxllm repo
+Origin: Sxllm-repo
+Label: Sxllm-repo
 Suite: stable
 Version: 1.0
 Codename: ios
 Architectures: iphoneos-arm64e
 Components: main
 Description: Personal jailbreak repository
-Date: Sat, 13 Jun 2026 14:06:11 UTC
+Date: Sat, 13 Jun 2026 14:11:02 UTC
 
 MD5Sum:
- 656754ee942d23a568bfea8b5c4b5bd7 4927 Packages
- a5dc2a404fd26c8638889af7843e5976 2546 Packages.gz
- 3e909734c720c4ad430e4db187f3a83b 2639 Packages.zst
- d2b5c5ffd8c5a4e7401cade563cda64e 2620 Packages.bz2
- c6c9777b102c7e98423f2562aa79fb68 2444 Packages.xz
+ 810363b488d12a49cf413195fcf68be9 18949 Packages
+ 1fa16edc137835a6322bb481012bbbc0 8259 Packages.gz
+ 5421d1e4f97811191a46c463285d1769 8662 Packages.zst
+ 21b71695311e81d149ad1da73702eafe 7645 Packages.bz2
+ 4284dc29b41cadac890cf77ac2e98c86 7504 Packages.xz
 
 SHA256:
- b5edf86656e4ac3720e5a1d0f3b67e648ad16268506af1e53deb4a240bb5c8cb 4927 Packages
- dbdadfd34bc54ac1f4ccb33a2a4ed0d6eaed1b4aae4dd41840b2290d7ca0cc7f 2546 Packages.gz
- 51fd827a99f190ff6ce25d62347be6fbabc595abd4fa432147c8c7a7bf04dfa6 2639 Packages.zst
- 85efd7272595bb4e2048674b9d0216f95b34ecc1616ebc8dad15ba07a8e9954f 2620 Packages.bz2
- 80758c5163922d70beab8a59ce83c524b049d16d3700968d1db2c96df5ab6719 2444 Packages.xz
+ 13ee1fd84206da8e9abac554e4ebe975fbd7485bb4c7401e3aedbae01e53340d 18949 Packages
+ fcd7c6bf8b680748432549dbeb14d450c5fdd4409c62e71277cd3d910aa47929 8259 Packages.gz
+ a9a7afc4164ffce6f28e770dc3b686673a69ee02fe76b33ebfd8e44c669656ca 8662 Packages.zst
+ 169571d4b9831db5d734357bb9b983a53a077a701e9ee2b5f7ffda17e1c183b1 7645 Packages.bz2
+ 60bea1d266ebad5b41e01b8037671c29b54fc42d5a7074345ad36e28d45c0e97 7504 Packages.xz
 
