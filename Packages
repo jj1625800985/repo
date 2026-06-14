@@ -62,25 +62,27 @@ Architecture: iphoneos-arm64e
 Maintainer: DaFei
 Depends: firmware (>= 14.0), nodejs22-ios-roothide (>= 22.12.0), ldid
 Filename: debs/codex-ios-roothide_0.134.0-2_iphoneos-arm64e.deb
-Size: 22390000
-MD5sum: 9bf1d7c4101610d9379a3455adbe1d35
-SHA1: c81f64e2515a2de5908af71a7b962a77dd669d9e
-SHA256: d5040a8d916440a4c4a3cd56d678fa3ec3380370ddb5f9640793a42fde361ba1
-Section: Development
+Size: 2132
+MD5sum: 23ff7bfbebafdc28c12326c8c15bc51b
+SHA1: 94e0ecbc98505a042bf6453f2400d0d37c7000d2
+SHA256: 83196061a753626aca089e0ecbfeb63d0ce5862440a5a3cd65751a5abb966d7f
+Section: Ai工具
 Priority: optional
 Description: OpenAI Codex CLI for iOS arm64 - AI coding agent in your terminal
  OpenAI Codex CLI ported to iOS arm64 (aarch64-apple-ios).
  An AI-powered coding agent that runs directly in your terminal.
  .
  Usage / 使用方法:
-   1. Run 'codex' to enter interactive mode
-      运行 codex 进入交互模式
-   2. Or use 'codex exec "your prompt"' for non-interactive mode
-      或用 codex exec "提示词" 进行非交互式调用
-   3.运行"codex"后可在jb目录下的var/mobile/codex里面进行配置修改api接口
+ 1. Run 'codex' to enter interactive mode
+ 运行 codex 进入交互模式
+ 2. Or use 'codex exec "your prompt"' for non-interactive mode
+ 或用 codex exec "提示词" 进行非交互式调用
+ 3.运行"codex"后可在jb目录下的var/mobile/codex里面进行配置修改api接口
  Features / 特性:
-   - Native arm64 binary, no emulation / 原生 arm64 二进制
-   - Works in NewTerm2/3 and SSH / 支持 NewTerm2/3 和 SSH 终端 只能接受responses端点的OpenAI 兼容的 API 密钥(二进制文件限制-不兼容的需要自己搭代理服务器翻译)。
+ - Native arm64 binary, no emulation / 原生 arm64 二进制
+ - Works in NewTerm2/3 and SSH / 支持 NewTerm2/3 和 SSH 终端 只能接受responses端点的OpenAI 兼容的 API 密钥(二进制文件限制-不兼容的需要自己搭代理服务器翻译)。
+Icon: https://langshiyunyi.github.io/my-repo/icons/codex-ios-roothide.png
+Name: codex-ios-roothide
 
 Package: com.Axs.floating-view
 Version: 1.6.0-6
@@ -428,10 +430,10 @@ Architecture: iphoneos-arm64e
 Maintainer: DaFei
 Depends: firmware (>= 14.0), ldid
 Filename: debs/nodejs22-ios-roothide_22.12.0-27_iphoneos-arm64e.deb
-Size: 23726452
-MD5sum: 3a5485257ab93617d3e7777a08448692
-SHA1: e1b2a8d5aa9430821183af0f1be889460ee4eccd
-SHA256: df7463ee7081a173225586c18db054fd3f243e04b08a937ca58054d23140947b
+Size: 1760
+MD5sum: a57c528d3cc1cb7b8025eb2cb752d67e
+SHA1: 223bc525aa7ba592b1855b870bef81ac0d77fd9e
+SHA256: 496cfb3cb87b8996ef77c3020b528c1873f595a5d55f1c8855fa745e897b3e6a
 Section: Development
 Priority: optional
 Description: Node.js 22.12.0 for iOS arm64 (side-by-side as node22)
@@ -442,6 +444,8 @@ Description: Node.js 22.12.0 for iOS arm64 (side-by-side as node22)
  Node.js 22.12.0 iOS arm64 运行时。
  以 node22/npm22/npx22 安装，不与其他 Node 版本冲突。
  内含 npm 10.9.0.
+Icon: https://langshiyunyi.github.io/my-repo/icons/nodejs22-ios-roothide.jpg
+Name: nodejs22-ios-roothide
 
 Package: ws.hbang.newterm3
 Version: 3.0~beta1-670+debug
