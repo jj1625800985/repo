@@ -351,6 +351,22 @@ Tag: role::hacker
 Author: Crassna
 Name: Stheno激活码生成器
 
+Package: com.sxllm.rimedictmanager
+Version: 1.0.0-11+debug
+Architecture: iphoneos-arm64e
+Maintainer: Sxllm
+Installed-Size: 540
+Pre-Depends: rootless-compat (>= 0.9)
+Filename: debs/com.sxllm.rimedictmanager_1.0.0-11+debug_iphoneos-arm64e.deb
+Size: 772
+MD5sum: ab59badfc7842f9325feb957d044f7d6
+SHA1: 381034fd0539c03520226c6665bdf2d64499b025
+SHA256: 7b2503c845b3487ad9d1a05e6c70c90d917a0f05f305e29056e39ab3d8876913
+Section: Utilities
+Description: Rime词库管理工具
+Author: Sxllm
+Name: Rime词库管理
+
 Package: com.wkk.dynamicnotland
 Version: 1.2.5
 Architecture: iphoneos-arm64e
