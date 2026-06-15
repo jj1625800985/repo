@@ -3,13 +3,13 @@ Version: 3.4.0-1+debug
 Architecture: iphoneos-arm64e
 Maintainer: DaFei
 Installed-Size: 1000
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: firmware (>= 14.0), libvterm0,libvterm-bin
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: firmware (>= 14.0), libvterm0, libvterm-bin
 Filename: debs/ai-config-gui_3.4.0-1+debug_iphoneos-arm64e.deb
-Size: 287572
-MD5sum: c09d7b25e2052cfbd429a4eb560a4d4c
-SHA1: a464ca73ee47a5a7f33e426ccc1f65d51ed746c0
-SHA256: 5cdbef8272ff151cf463c8400aaef78e9ebf030c3387d898cf470c69bf869234
+Size: 1008
+MD5sum: 95e5258eeb7d5697ed56a7d7212a7b7f
+SHA1: 60c65ac6f00341b8ca3830bbeac570542d7ea8ed
+SHA256: c046b6bff5f0937179e2b9f8afb2c2b89ee96eee11fefc978185d08eed3f4e17
 Section: Ai工具
 Description: Claude Code / Codex API 配置管理工具 内置ai终端，双指缩放页面，需要先安装大飞源里面的ai，claude和codex然后执行一次“claude”和“codex”命令初始化文件，更新面板显示🤔
 Author: DaFei
@@ -25,16 +25,17 @@ Depends: firmware (>= 14.0), zsh, ldid
 Conflicts: com.anthropic.claude-code-beta
 Provides: claude-code
 Filename: debs/claude-code-roothide_2.1.19-1_iphoneos-arm64e.deb
-Size: 27881552
-MD5sum: 952f7a498a951d49b843f6b95bc3fed5
-SHA1: 7c72b4a210c9cf5d2540140ea117d94767255a09
-SHA256: adfffe9989bdda67476d66b5880d8b937564b0c174cbdeb2553272ec4fd660b1
+Size: 2008
+MD5sum: aab9f4b8fdd316fee8fbd4d447052ed5
+SHA1: 398b87b2181a27d2853f1dc1fadf098fc4e3300b
+SHA256: c3857a3d35b33a2efc96bc5d361787d9349cb54b2a2a01a67ac88241c95b0ebf
 Section: Development
 Homepage: https://claude.ai
 Description: Claude Code CLI for iOS 人工智能 在越狱iPhone 上本 地运行Claude Code终端执行claude-auth以开始认证 配置 终端执行 claude以开始使用 可以配置 DeepSeek模型API和第三方模型API
 Tag: purpose::console, role::developer
 Author: Anthropic (iOS package by Bryan) DaFei(修改优化)
 Depiction: https://github.com/anthropics/claude-code
+Icon: https://langshiyunyi.github.io/my-repo/icons/claude-code-roothide.jpg
 Name: Claude Code Roothide
 Sileodepiction: https://github.com/anthropics/claude-code
 
@@ -63,9 +64,9 @@ Maintainer: DaFei
 Depends: firmware (>= 14.0), nodejs22-ios-roothide (>= 22.12.0), ldid
 Filename: debs/codex-ios-roothide_0.134.0-2_iphoneos-arm64e.deb
 Size: 2132
-MD5sum: 23ff7bfbebafdc28c12326c8c15bc51b
-SHA1: 94e0ecbc98505a042bf6453f2400d0d37c7000d2
-SHA256: 83196061a753626aca089e0ecbfeb63d0ce5862440a5a3cd65751a5abb966d7f
+MD5sum: 6d6d567784751547e79aaeb6bc63c10e
+SHA1: 5eb5363fd6388d3bb863289466468b3037929060
+SHA256: e95cc1d4fca1eeb098c4003730305177fa797cd20348e18201115c5c97243bb9
 Section: Ai工具
 Priority: optional
 Description: OpenAI Codex CLI for iOS arm64 - AI coding agent in your terminal

@@ -6,19 +6,19 @@ Codename: ios
 Architectures: iphoneos-arm64e
 Components: main
 Description: Personal jailbreak repository
-Date: Sun, 14 Jun 2026 14:54:28 UTC
+Date: Mon, 15 Jun 2026 13:42:59 UTC
 
 MD5Sum:
- 7efb329f3a4c638b3a22508f42ca5373 20576 Packages
- 17e97242f643685ebc439e84ae139822 8736 Packages.gz
- bb871ef94f5fca796f92fd58aafdad90 9149 Packages.zst
- 14f09ede4bf97bb7fce721522988ffab 8025 Packages.bz2
- 75e62596538f67142f80bf0df3c30a8b 7924 Packages.xz
+ 6a2b80b731c4742d210814929c7cd41d 20648 Packages
+ 3e9f76b65b6f1eb30ebfea20351469a7 8742 Packages.gz
+ b660fa5bbf431a6f816ef2914ffd9f82 9141 Packages.zst
+ a54de9d7f4434dad779c3cbf7d9421cf 8016 Packages.bz2
+ 0b8837c4f49f23fcffd8d14cd91c594b 7924 Packages.xz
 
 SHA256:
- fa2716417cda8cf4061922460c97b2347fbe0dc8c123279fd715c6ce6b6d9a0f 20576 Packages
- c76f00559cc1beb074f58fb877fa245fbb8619871fda72fd527a7b30290bd6f7 8736 Packages.gz
- 477cc903afc1c0356e7aecc61e18195f5e68da46f950e30b866868f9f574e345 9149 Packages.zst
- 17eca2e6c9e0962b9b5ea213d2eb61496baf149d09bbf4500119c2d82fe46230 8025 Packages.bz2
- 8933bb8bd7aa90908af55fa2d999e64e0f59d9a0b509f61fa1dc566a8eb97aae 7924 Packages.xz
+ 8d57ab6f05243ccd8387bf7429f68c4e9417d49a61172a5c60a76227f6de28f0 20648 Packages
+ 7011f7b9c3edbf0b0771bb80af067cfc76f0f253505068ed687abbff6983cd97 8742 Packages.gz
+ 45aa33658b3e504f47fe9cee0da34fa8b7b5cb6c66ce729457fd58ad61afc0a1 9141 Packages.zst
+ b4b92d96ab6722e13349bec3389ad2234617869b4a9a8dcc8b87f3af1ce0cf8a 8016 Packages.bz2
+ 3f486ab5d0c5ff1aeacc870561520185ff899a8e7503bd95528577c12e83e9c4 7924 Packages.xz
 
