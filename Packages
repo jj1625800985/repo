@@ -299,6 +299,28 @@ Icon: https://huayuarc.github.io/icon/huayuarc.jpg
 Name: Allow Network-roothide
 Sileodepiction: https://repo.lenglengyu.top/packageInfo/ghallownetworksileo
 
+Package: com.liuermei.snapper3annotate
+Version: 1.5.12
+Architecture: iphoneos-arm64e
+Maintainer: 星辰
+Installed-Size: 836
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0), preferenceloader, com.jontelang.snapper3 (>= 1.1.1)
+Filename: debs/com.liuermei.snapper3annotate_1.5.12_iphoneos-arm64e.deb
+Size: 1224
+MD5sum: a4a3f02c5f9392beeb8a17cea3cc255d
+SHA1: f3ccbfa5b153b725625780213b7107eee46b0587
+SHA256: f15eaa87f38abd9df0423a32f8bf89fbc41614b0b7942bc69941b051719c7757
+Section: Tweaks
+Description: 【软件介绍】
+ Snapper 3 微信风格截图标注插件。框选后可在自带操作栏使用：矩形、圆形、箭头、模糊、文字、表情、翻译、提取文字。
+ · 文字：点空白添加；长按拖动；双击修改；隐根适配同窗口系统输入法（可粘贴）
+ · 翻译 / 提取文字：百度翻译开放平台（图片翻译 + 通用文本翻译），需在设置填写 appid / appkey，并开通对应服务
+ · 支持第一语言 / 第二语言自动切换翻译方向
+ 作者：星辰  QQ：71445993
+Author: 星辰
+Name: Snapper3 → 标注编辑（微信风格）
+
 Package: com.local.repokit
 Version: 0.1.0-7+debug
 Architecture: iphoneos-arm64e
