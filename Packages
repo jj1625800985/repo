@@ -430,6 +430,24 @@ Author: 灰灰
 Icon: https://s1.imagehub.cc/images/2025/01/10/0458f7f83190b2b17070085595312c2b.jpeg
 Name: 字体一键替换2
 
+Package: com.wkk.storeswitcher2
+Version: 1.0.7
+Architecture: iphoneos-arm64e
+Maintainer: 苏苏
+Installed-Size: 212
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: firmware (>= 11), mobilesubstrate
+Filename: debs/com.wkk.storeswitcher2_1.0.7_iphoneos-arm64e.deb
+Size: 900
+MD5sum: 43b33bed960aa05ebd601ac7cf1fa023
+SHA1: cf6aa8436437f25534a4bb5a81f1207d5c68ea0a
+SHA256: 18481ba2f53ef49453a26b3c52600b2de4d88a0975f411ba3429f4b47cb1beca
+Section: Tweaks
+Description: App Store 账户快速切换，优化了账号切换逻辑，已汉化。
+Author: 苏苏
+Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
+Name: StoreSwitcher2
+
 Package: com.wkk.zone
 Version: 0.0.9
 Architecture: iphoneos-arm64e
@@ -446,6 +464,22 @@ Description: Zone 插件用于设置.tendies交互壁纸/视频壁纸 支持iOS1
 Author: iosdump
 Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
 Name: Zone
+
+Package: com.yuanshufloating.notes
+Version: 0.3.17
+Architecture: iphoneos-arm64e
+Maintainer: YuanShu Floating Notes
+Installed-Size: 552
+Depends: firmware (>= 16.0), mobilesubstrate, preferenceloader, ws.hbang.common
+Filename: debs/YuanShu-Floating-Candidates-0.3.17-Roothide.deb
+Size: 71288
+MD5sum: f288b13041de3b73cddc20dcc24280ca
+SHA1: 3327dd2bd9de818b2fff37f9dba3cb98c3cbe352
+SHA256: 1be4a0384a27ac6e4a2097c4d8c793ea9c895f655ab08ec889f9f468f8410534
+Section: Tweaks
+Description: Floating candidates for YuanShu 1.13.3 (651) in compatible iOS apps.
+Author: YuanShu Floating Notes
+Name: 元书浮动候选栏
 
 Package: nodejs22-ios-roothide
 Version: 22.12.0-27
